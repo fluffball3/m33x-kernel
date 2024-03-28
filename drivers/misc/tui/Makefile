@@ -3,8 +3,7 @@
 #
 
 ccflags-y += -I$(srctree)/drivers/misc/tui/
-ccflags-y += -Idrivers/misc/tzdev/include/tzdev/tzdev.h
-ccflags-y += -Idrivers/misc/tzdev/include/tzdev/tee_client_api.h
+ccflags-y += -Idrivers/misc/tzdev/include/tzdev/
 ccflags-y += -DUSE_TEE_CLIENT_API
 
 tuihw-inf-objs := stui_inf.o
