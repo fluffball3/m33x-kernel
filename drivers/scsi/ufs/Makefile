@@ -1,7 +1,7 @@
 # SPDX-License-Identifier: GPL-2.0
 # UFSHCD makefile
 ifdef CONFIG_SCSI_UFS_EXYNOS
-ccflags-y += -I$(srctree)/drivers/scsi/ufs/$(TARGET_SOC)
+ccflags-y += -I$(srctree)/drivers/scsi/ufs/s5e8825
 endif
 
 # The link order is important here. ufshcd-core must initialize
